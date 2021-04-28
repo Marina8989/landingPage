@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Star Bucks Landing Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#" > <img src="https://shawnmclymont.com/landing-page/logo.png" class="logo"></a>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </header>
+
+            <div class="content">
+                <div class="textBox">
+                    <h2>It's not just Coffee <br> It's <span>StarBucks</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eum nihil, quidem soluta perspiciatis corporis natus unde dolor illo. Necessitatibus aliquam voluptatem explicabo, nobis modi tenetur consequuntur itaque atque? Distinctio?</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="imgBox">
+                    <img src="https://shawnmclymont.com/landing-page/img1.png" class="startbucks">
+                </div>
+            </div>
+
+
+            <ul class="sci">
+                <li><a href="#"><img src="https://shawnmclymont.com/landing-page/facebook.png"></a></li>
+
+                <li><a href="#"><img src="https://shawnmclymont.com/landing-page/twitter.png"></a></li>
+
+                <li><a href="#"><img src="https://shawnmclymont.com/landing-page/instagram.png"></a></li>
+            </ul>
+
+        </section>
+
+        <script type="text/javascript">
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var navigation = document.querySelector('.navigation')
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+
+        </script>
+    </body>
+</html>
